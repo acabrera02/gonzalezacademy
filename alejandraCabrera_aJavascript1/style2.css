@@ -1,0 +1,54 @@
+/* color / font styles */
+nav { background-color:#dcf8c4; }
+
+nav a { color: #111301;
+        text-decoration: none;
+        font-size: 16px; 
+        font-weight: bold; 
+        padding: 2px 10px 2px 10px; }
+
+nav a:hover { color: white;
+            text-decoration: underline; }
+
+ul { list-style-image: url('Untitled2.png'); } 
+
+header {
+    background: url(pexels-photo-3293148.jpeg) #449900ee no-repeat;
+    background-size: 50px 50px;
+    background-position: 20px 5px;
+    padding-left: 70px;
+    height: 120px;
+    }
+
+#layout {
+background-color: #efefef;
+}
+
+aside#contact {
+    padding: 15px;
+    font-size: small;
+    border: thin black dashed;
+    width: 25%;
+    float: right;
+    position: absolute ;
+    top: 200px;
+    right: 100px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px #333;
+    background-color: #a077ff; 
+    background: linear-gradient(0deg, #fff035, #fff667, #fffde1, #fff667, #fff035);
+}
+
+section {
+    background: url(../images/ziplining1.jpg) white no-repeat;
+    background-size: cover;
+    background-position: top center;
+    height: 150px;
+    box-sizing: border-box;
+    padding: 30px 4 0 10px;
+    }
+
+h2 {
+    color: #07611e;
+    text-shadow: 2px 2px 12px black ;
+    }

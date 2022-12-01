@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+
+}
+
+h1 {
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+    color: white;
+    letter-spacing: -2px;
+    margin-bottom: 0px;
+}
+
+h2 { color: #234f00;}
+
+h4 { font-style: italic;
+     margin-top: 3px;}
+
+main {
+    background-color: white;
+}
+
+header {
+    background-color: #449900;
+}
+
+main, header, footer {
+    padding: 5px 5px 5px 5px;
+}
+
+section {
+    padding-left: 5px;
+}
+
+footer {
+    font-size: x-small;
+    text-align: center;
+    background-color: #cad217;
+    line-height: 2em;
+}

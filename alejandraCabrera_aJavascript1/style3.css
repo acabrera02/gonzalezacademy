@@ -1,0 +1,104 @@
+
+
+
+.column {
+    float:inline-end;
+    width: 50%;
+    padding: 10px;
+    position:sticky;
+  }
+
+  .row {margin: 0 auto;}
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+    
+.card {
+        box-shadow: 0 4px 8px 0 rgba(43, 20, 170, 0.2);
+        padding: 16px;
+        text-align: center;
+        background-color: #d2f1e7;
+      }
+.card:hover {
+    background-color: rgba(235, 103, 103, 0.2);
+    color: rgb(36, 44, 41);
+}
+
+form#contact {
+        margin: auto auto ;
+        padding: 10px;
+        border: 1px outset gray;
+        line-height: 150%;
+        font-family:Arial, Helvetica, sans-serif;
+        max-width: 750px;
+        background-color: #c8e9be;
+      }
+
+form#contact h8 { 
+        padding: 0 0 15px 0; 
+        margin:0;
+        color: #0c2c03;
+
+      }
+
+form#getrequest {
+        margin: auto auto ;
+        padding: 5px;
+        border: 3px dotted rgb(7, 73, 42);
+        line-height: 150%;
+        font-family:Arial, Helvetica, sans-serif;
+        max-width: 750px;
+        
+      }
+
+form#getrequest h9 {
+        padding: 0 0 15px 0; 
+        margin:0;
+        color: #0c2c03;
+        font-size: larger;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+      }
+
+/* Aside Styles */
+
+/*Aside box formatting*/      
+aside#cart {
+  padding: 15px;
+  border: thick black;
+  width: 25%;
+  height: auto;
+  position: absolute;
+  top: 200px;
+  right: 15px;
+  box-shadow: 2px 2px 5px #0c2c03;
+}
+
+/*decided to add a boder to separate each class added*/
+aside > div   {
+  border-bottom: 5px double rgba(69, 138, 109, 0.2);
+  padding: 5px 10px 10px;
+}
+
+/*Enrollment cart font changes*/
+aside > h3 {
+  font-size: larger;
+  text-decoration: underline;
+  font-family: cursive;
+  font-size: x-large;
+
+}
+
+/*defying the number size*/
+aside > div > span {
+  font-size: 25px;
+  position: relative;
+
+}
+
+
+
+
